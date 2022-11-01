@@ -23,14 +23,7 @@
 					<li><a href="./MovieComingSoon.mv">상영예정작</a></li>
 				</ul>
 			</li>
-			
-			<li>
-				<div class="mv">
-					<h1>AIM</h1>
-				</div>
-				
-			</li>
-			
+	
 			<li><a href="">극장</a>
 				<ul>
 					<li><a href="">서울</a>
