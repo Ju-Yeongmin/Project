@@ -48,6 +48,20 @@ public class TicketingFrontController extends HttpServlet {
 			}
     	} // Ticketing.tk 끝
     	
+    	else if (command.equals("/TheaterClick.tk")) {
+    		System.out.println(" C : /TheaterClick.tk ");
+    		System.out.println(" C : [패턴3] ");
+    		
+    		// TheaterClickAction() 객체 생성
+    		action = new TheaterClickAction();
+    		
+    		try {
+				forward = action.execute(request, response);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+    	} // TheaterClick.tk 끝
+    	
     	
 
     	
